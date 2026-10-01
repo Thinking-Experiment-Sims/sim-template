@@ -7,6 +7,12 @@ Owner: Vladimir Lopez — high school physics teacher (Houston). Audience: high 
 Sims are static sites served by GitHub Pages at `https://thinking-experiment-sims.github.io/<repo>/` and listed in the hub
 `https://thinking-experiment-sims.github.io/interactive-physics/`.
 
+**Older sims** (repos with no `src/css/sim-core.css`, created before `sim-template`): keep the repo's existing file
+layout, class names, and styles. Do **not** restructure it into the template layout, add `sim-core.css`, or rewrite
+working code unless Vladimir asks. Still apply: brand colors (§1.5), physics correctness, accessibility for anything
+you add, tests for any physics you add or change (add `package.json` + `tests/` if missing), pedagogy (§4), and the
+multi-agent workflow (§5). Where §1–§3 name template files, use this repo's equivalent.
+
 ---
 
 ## 1. Hard rules
