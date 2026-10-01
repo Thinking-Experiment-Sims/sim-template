@@ -40,6 +40,8 @@ src/js/app.js         DOM wiring, animation loop, canvas rendering
 tests/physics.test.js node:test unit tests
 PHYSICS.md            teacher-facing theory, equations, derivations, misconceptions, worked examples
 README.md             what the sim is, live link, how to use it in class
+SETUP.md              per-computer setup and sync checklist (for Vladimir; leave as is)
+scripts/              new-sim.ps1 (create sim + agent worktrees), check-setup.ps1 (verify a computer)
 favicon.png           TTE favicon
 ```
 
